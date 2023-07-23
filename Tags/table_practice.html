@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    table,tr,td,th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+</style>
 <body>
     <h3>Table 1</h3>
 
-    <table border="1">
+    <table>
         <thead>
             <th>Student Id</th>
             <th>Student Name</th>
@@ -45,7 +53,7 @@
 
 
     <h3>Table 2</h3>
-    <table border="1">
+    <table>
         <tr>
             <td>Column 1</td>
             <td>Column 2</td>
@@ -68,7 +76,7 @@
 
 
     <h3>Table Practice</h3>
-    <table border="1">
+    <table>
         <tr>
             <td>Column 1</td>
             <td>Column 2</td>
@@ -93,7 +101,7 @@
 
 
     <h3>Table 3</h3>
-    <table border="1">
+    <table>
         <thead>
             <th>No.</th>
             <th>Full Name</th>
@@ -140,7 +148,7 @@
 
 
     <h3>Table 4</h3>
-    <table border="1">
+    <table>
         <thead>
             <th>Country</th>
             <th>State</th>
@@ -229,7 +237,7 @@
     </table>
 
     <h3>Table 5</h3>
-    <table border="1">
+    <table>
         
         <tbody>
             <tr>
@@ -275,6 +283,40 @@
                 <td>XSL Formatting Object</td>
             </tr>
         </tbody>
+    </table>
+
+
+
+    <h3>Table 6</h3>
+    <table>
+        <tr>
+            <td rowspan="2">State of Health</td>
+            <td colspan="2">Fasting value</td>
+            <td>After Eating</td>
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours After Eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More Than 126</td>
+            <td>N/A</td>
+            <td>More Than 200</td>
+        </tr>
     </table>
 </body>
 </html>
