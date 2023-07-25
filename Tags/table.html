@@ -6,13 +6,17 @@
     <title>Document</title>
 </head>
 <style>
-    
+    table,tr,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
 </style>
 <body>
     <table>
         <caption>My First Table</caption>
         <tr>
-            <td colspan="2" rowspan="2">abcd</td>
+            <td rowspan="2"  colspan="2">abcd</td>
             <td>abcd</td>
 
         </tr>
@@ -34,6 +38,34 @@
             <td>abcd</td>
             
         </tr>
-    </table>   
+    </table>
+    
+    <h2>Table 2</h2>
+    
+    <table>
+        <tr>
+            <td rowspan="2" colspan="2">1</td>
+            
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            
+            
+            <td colspan="2" rowspan="4">7</td>
+            
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>0</td>
+            
+           
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            
+        </tr>
+    </table>
 </body>
 </html>
